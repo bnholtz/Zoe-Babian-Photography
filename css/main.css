@@ -1,0 +1,56 @@
+nav,
+footer {
+  font-family: 'Nixie One', cursive, Courier, serif;
+}
+
+body{
+  text-align: center;
+  background-image: url(Film background);
+  background-color: #E4B04A;
+}
+
+.container{
+  display: auto;
+}
+
+#logo{
+  font-family: 'Fredericka the Great', cursive, Courier, serif;
+}
+
+a:hover{
+  background-color: #610521;
+  color: white;
+  border-bottom: 4px solid black;
+}
+
+.column {
+  float: left;
+  border-right: 2px solid black;
+  padding: 10px;
+}
+.column:nth-child(3){
+  border-right: 0;
+}
+.column img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#logo {
+  font-size: 48px;
+}
+
+footer{
+  clear: both;
+  float: right;
+}
+
+nav a {
+  border-bottom: 4px solid #610521;
+  font-size: 55px;
+  border-bottom-width: ;
+  text-decoration: none;
+  color: black;
+  margin: 0px 30px 30px 30px;
+  text-align: left;
+}
