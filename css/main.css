@@ -5,16 +5,15 @@ footer {
 
 body{
   text-align: center;
-  background-image: url(Film background);
-  background-color: #E4B04A;
+  background-color: #F7EB97;
 }
-
 .container{
-  display: auto;
+  margin: 0 auto;
+  width: 73%;
 }
 
 #logo{
-  font-family: 'Fredericka the Great', cursive, Courier, serif;
+  font-family: 'Fredericka the Great', cursive, Courier, serif;s
 }
 
 a:hover{
@@ -26,14 +25,55 @@ a:hover{
 .column {
   float: left;
   border-right: 2px solid black;
-  padding: 10px;
+  padding: 0 10px;
+  margin-bottom: 10px;
 }
+
 .column:nth-child(3){
   border-right: 0;
 }
 .column img {
   display: block;
   margin-bottom: 10px;
+  }
+
+.column img:last-of-type{
+  margin-bottom: 0;
+}
+
+.column.first{
+  width: 31%;
+  text-align: justify;
+}
+
+.column.first h1{
+  height: 1.5em;
+  line-height: 1.5em;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.column.first h1:after{
+  content:'';
+  display: inline-block;
+  width: 100%;
+}
+
+.column.second{
+  width: 31%;
+  text-align: justify;
+}
+
+.column.third{
+  width: 31%;
+}
+
+.column.third img{
+  width: 100%;
+}
+
+.row{
+  clear: left;
 }
 
 #logo {
@@ -53,4 +93,7 @@ nav a {
   color: black;
   margin: 0px 30px 30px 30px;
   text-align: left;
+}
+nav{
+  margin: 20px;
 }
